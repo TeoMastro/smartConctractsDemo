@@ -20,5 +20,9 @@
   },
   "dependencies": {
     "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "test": "yarn hardhat test",
+    "lint":"yarn solhint 'contracts/*.sol'"
   }
 }
